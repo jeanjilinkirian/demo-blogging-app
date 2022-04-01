@@ -8,7 +8,7 @@ const Query = {
             after: args.after,
             orderBy: args.orderBy
         };
-
+        
         if(args.query){
             opArgs.where = {
                 OR: [
